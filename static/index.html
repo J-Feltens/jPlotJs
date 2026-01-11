@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vectorfield</title>
+
+    <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="js/config.js"></script>
+    <script src="js/vibecoded_drawing.js"></script>
+    <script src="js/port.js"></script>
+    <script src="js/fastapi_conector.js"></script>
+    <script src="js/onload.js"></script>
+</head>
+<!--<body id="body" onload="onload()">-->
+<body id="body">
+
+<div class="columns is-centered">
+
+    <div class="column is-half">
+        <div class="content">
+            <form>
+                <div class="field">
+                    <label class="label">Frequency</label>
+                    <span class="help">-</span>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="70">
+                    </div>
+                    <span class="help">+</span>
+                    <span>GHz</span>
+                </div>
+        </div>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

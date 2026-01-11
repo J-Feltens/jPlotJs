@@ -1,0 +1,6 @@
+const VECTOR_LENGTH = 12;
+const VECTOR_LINE_WIDTH = 2;
+const VECTOR_HEAD_LENGTH = 8;
+const VECTOR_HEAD_WIDTH = 6;
+const VECTOR_FILL_STYLE = "filled";
+let INTERVAL = 10;
