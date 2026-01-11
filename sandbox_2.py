@@ -29,8 +29,8 @@ res_y = 15
 
 f = 70e9
 
-m = 2
-n = 0
+m = 1
+n = 1
 
 a = 3.1e-3
 b = a / 2
@@ -90,13 +90,20 @@ ax_h_contour.set_facecolor("#555")
 
 # plt.colorbar(cbar_e, ax=ax_e)
 # plt.colorbar(cbar_h, ax=ax_h)
+ax_e.set_xticks([], [])
+ax_e.set_yticks([], [])
+ax_h.set_xticks([], [])
+ax_h.set_yticks([], [])
+ax_e_contour.set_xticks([], [])
+ax_e_contour.set_yticks([], [])
+ax_h_contour.set_xticks([], [])
+ax_h_contour.set_yticks([], [])
 ax_e.set_title("e-field")
 ax_h.set_title("h-field")
 ax_e.set_aspect("equal")
 ax_h.set_aspect("equal")
 ax_e_contour.set_aspect("equal")
 ax_h_contour.set_aspect("equal")
-# plt.tight_layout()
 
 ani = FuncAnimation(
     fig,
